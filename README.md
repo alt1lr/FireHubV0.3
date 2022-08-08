@@ -34,7 +34,7 @@ TextLabel.Size = UDim2.new(0.170134634, 0, 0.0700389072, 0)
 
 TextLabel.Font = Enum.Font.GothamBold
 
-TextLabel.Text = "Fire Hub"
+TextLabel.Text = "FireHub"
 
 TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
 
@@ -68,7 +68,7 @@ TextLabel_2.Size = UDim2.new(1, 0, 1, 0)
 
 TextLabel_2.Font = Enum.Font.GothamBold
 
-TextLabel_2.Text = "V2"
+TextLabel_2.Text = "V1"
 
 TextLabel_2.TextColor3 = Color3.fromRGB(255, 255, 255)
 
@@ -106,7 +106,7 @@ end)
 local notifications = loadstring(game:HttpGet(("https://raw.githubusercontent.com/AbstractPoo/Main/main/Notifications.lua"),true))()
 notifications:notify{
     Title = "Fire Hub",
-    Description = "V0.2",
+    Description = "V1",
     Accept = {
         Text = "Ok"
     },
