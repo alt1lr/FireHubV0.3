@@ -1416,12 +1416,6 @@ local Tab9 = Window:NewTab("Ninja Legends")
 local Tab9Section = Tab9:NewSection(" Ninja Legends ")
 
 local Tab10 = Window:NewTab("Other Gui")
-local Tab10Section = Tab10:NewSection("Credits:")
-local Tab10Section = Tab10:NewSection("Lots Of Script Is From V3rmillion")
-local Tab10Section = Tab10:NewSection("Made By alt1lr#9459")
-local Tab10Section = Tab10:NewSection("Ui Made By Kavo Ui Libary")
-local Tab10Section = Tab10:NewSection("Kavo Ui Made By Xheptc")
-local Tab10Section = Tab10:NewSection("Other Gui:")
 
 Tab6Section:NewButton("Pack A Punch", "", function()
 game.Players.LocalPlayer.Character.Humanoid.RootPart.CFrame = CFrame.new(278, 323, 785)
@@ -2568,8 +2562,6 @@ Tab9Section:NewToggle("Anti AFK", "", function(bool)
     end
 end)
 end)
-
-local Tab10Section = Tab10:NewSection("Fire Hub [3]")
 
 Tab10Section:NewButton("Fire Hub [3]", "", function()
 local Library = loadstring(game:HttpGet("https://pastebin.com/raw/vff1bQ9F"))()
